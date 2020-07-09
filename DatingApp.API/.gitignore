@@ -2,6 +2,7 @@
 obj
 *.db
 appsettings.json
+appsettings.Development.json
 *.suo
 *.user
 *.userosscache
