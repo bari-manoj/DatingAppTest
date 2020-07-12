@@ -2,6 +2,7 @@
 
   "extends": "tslint:recommended",
   "rules": {
+    "disable-next-line": "align",
     "no-string-literal": false,
     "align": {
       "options": [
