@@ -13,6 +13,7 @@ import { RouterModule } from '@angular/router';
 import { JwtModule } from '@auth0/angular-jwt';
 import { NgxGalleryModule } from '@kolkov/ngx-gallery';
 import { FileUploadModule } from 'ng2-file-upload';
+import { TimeagoModule } from 'ngx-timeago';
 
 import { AppComponent } from './app.component';
 import { ValueComponent } from './value/value.component';
@@ -59,6 +60,7 @@ export function tokenGetter() {
       BsDropdownModule.forRoot(),
       BsDatepickerModule.forRoot(),
       TabsModule.forRoot(),
+      TimeagoModule.forRoot(),
       NgxGalleryModule,
       FileUploadModule,
       RouterModule.forRoot(appRoutes),
